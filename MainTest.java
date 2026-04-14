@@ -13,4 +13,13 @@ public class MainTest {
     void testKhongCoSoChan() {
         assertEquals(0, Main.tinhTongChan(1));
     }
+    @Test
+    void testSoKhong() {
+       assertEquals(0, Main.tinhTongChan(0));
+    }
+    @Test
+    void testSoAm() {
+       assertEquals(0, Main.tinhTongChan(-5));
+    }
 }
+
